@@ -219,7 +219,7 @@ h2.title {
 }
 
 .logo {
-    width: 600px;
+    width: 500px;
 }
 
 .logo-img {
@@ -423,36 +423,3 @@ a.social-icon {
         text-align: center;
     }
 }
-
-
-/* @media only screen and (max-width: 350px){ */
-
-    /* JUMBOTRON */
-
-    /* .jumbotron h1 { */
-        /* font-size: 42px; */
-    /* } */
-
-    /* .jumbotron p:first-of-type { */
-        /* font-size: 28px; */
-    /* } */
-
-    /* .mx-auto a { */
-        /* font-size: 16px; */
-    /* } */
-    
-    /* ABOUT */
-
-    /* .bowed h1 { */
-        /* font-size: 42px; */
-    /* } */
-
-    /* .advice{ */
-        /* font-size: 46px; */
-    /* } */
-
-    /* FOOTER */
-    
-/* } */
-
-/* } */
