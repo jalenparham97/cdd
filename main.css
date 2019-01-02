@@ -1,0 +1,455 @@
+body{
+    
+    /* font-family: 'Abel', sans-serif; */
+    
+    /* font-family: 'IBM Plex Mono', monospace; */
+    font-family: 'Monda', sans-serif;
+    
+    /* font-family: 'Lekton', sans-serif; */
+    /* background-color: #689082; */
+}
+
+/* ##### GENERAL ##### */
+.col-lg-6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    flex-direction: column;
+    padding: 0;
+}
+
+.btn-primary{
+    background: #466D92;
+    border: none;
+    border-radius: 0;
+    color: #689082;
+    color: #dde5e3;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.btn-primary:hover{
+    background: #689082;
+    color: #fcfeff;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    left: 0;
+    margin: 0;
+}
+
+/* ####### NAVBAR ######## */
+
+.nav-icon{
+    width: 70px;
+   
+    /* display: none; */
+}
+
+.vh-slider{
+    height: 750px;
+}
+
+.nav-text{
+    font-size: 20px;
+    color: #466D92;
+    -webkit-transition: color .25s;
+}
+
+.nav-text:hover {
+    -webkit-transition: color .25s;
+}
+
+.center-nav{
+    margin: auto;
+}
+
+.navbar-toggler{
+    color: black
+}
+
+.first-toggle {
+    width: 70%
+}
+
+.first-toggle i {
+    font-size: 30px;
+    vertical-align: text-bottom;
+}
+
+.text-info{
+ color:#dde5e3;
+}
+
+.bg-color{
+    background-color: #466D92;
+}
+
+
+.top-nav-color{
+    color: #dde5e3;
+    font-size: 24px;
+    margin-bottom: auto;
+}
+
+/* ##### JUMBOTRON ##### */
+
+.jumbotron {
+    padding-top: 30px;
+    background-image: url(pictures/computer-chip.jpg);
+    background: linear-gradient(rgba(16, 138, 57, 0.4),rgba(18, 18, 206, 0.4)), url(pictures/computer-chip.jpg);
+    border-radius: 0;
+    height: 100%;
+    background-size: cover;
+    color: white;
+}
+
+.top-logo {
+    width: 20%;
+    top:0;
+}
+
+/* ##### SERVICES ##### */
+
+.services {
+    margin-top: 100px;
+    color: #689082;
+    font-size: 3.5rem;
+}
+
+.subtitle {
+    margin-bottom: 100px;
+}
+
+.services-container {
+    margin-top: 60px;
+}
+
+.service {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+
+.service-body {
+    width: 500px;
+    margin: 0 auto;
+}
+
+h2.title {
+    font-size: 2.2rem;
+}
+
+.service-content {
+   margin-top: 80px;
+}
+
+.service-decription {
+    font-size: 1.2rem;
+}
+
+.service-img {
+    width: 600px;
+    height: 400px;
+}
+
+.service-img img {
+    width: 100%;
+    height: 100%;
+}
+
+/* ##### ABOUT ##### */
+
+.bowed .text-center {
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.about-paragraph {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.bowed{
+    position: relative;
+    height: 100%;
+    background-image: linear-gradient(#689082, #466D92);
+    padding: 70px 0px;
+    margin-top: 150px;
+    
+}
+
+.review {
+    margin-top: 100px;
+}
+
+.advice {
+    color: #689082;
+    font-size: 70px;
+}
+
+.call-today{
+    margin: 2% auto !important;
+    width: 400px;
+}
+
+/* ##### FOOTER ##### */
+
+#footer {
+    padding: 70px;
+    background: #689082;
+    color: #fcfeff;
+    margin-top: 100px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 95%;
+}
+
+.contact-container {
+    width: 500px;
+}
+
+.logo {
+    width: 600px;
+}
+
+.logo-img {
+    width: 100%;
+}
+
+a.address-contact {
+    color: #fcfeff;
+    font-size: 1.2rem;
+}
+
+a.social-icon {
+    color: #fcfeff;
+    font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+.copyright {
+    text-align: end;
+    margin-top: 45px;
+}
+
+@media only screen and (max-width: 993px){
+
+/* ##### GENERAL ##### */
+
+
+
+/* ##### NAV ##### */
+
+.top-nav-color{
+    font-size: 15px;
+}
+
+.navbar-toggler{
+    background: white;
+    margin-right: 15px;
+}
+
+.nav-item p{
+    margin-left: 30px;
+}
+
+#bg-info {
+    padding-left: 0; 
+    padding-right: 0; 
+}
+
+.bg-botton-nav:hover{
+    background-color: #689082;
+    /* padding-bottom: 10px;
+    padding-top: 10px; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* ####### JUMBOTRON ######## */
+
+.top-logo{
+    width: 100px;
+    padding: 0;
+    margin: 0;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+}
+
+.white-text{
+    color: #fcfeff;
+    color: #b5c6be;
+    color: #689082;
+    color: #466D92;
+    color: #dde5e3;
+    color: black;
+    color: white;
+}
+
+.btn-primary {
+    width: 95%;
+}
+
+.sbc{
+    font-size: 30px;
+}
+
+.hr-white{
+        display: block;
+           position: relative;
+           padding: 0;
+           width: 80% !important;
+           margin: 10% auto !important;
+           height: 0;
+           max-height: 0;
+           font-size: 1px;
+           line-height: 0;
+           clear: both;
+           border: none;
+           border-top: 3px solid #689082;
+           /* border-bottom: 2px solid #fcfeff;   */
+    }
+
+
+
+
+    /* ####### SERVICES ######## */
+
+.services{
+    text-shadow: black;
+    font-size: 60PX;
+    color: #466D92;
+    /* margin-bottom: 20px; */
+    /* margin-top: 55px; */
+}
+
+.margin-right-50{
+    margin-left: 400px;
+}
+
+.card{
+    width: 95%;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    margin-bottom: 10px; /* Added */
+}
+
+.card-text{
+    text-align: justify;
+}
+
+/* ####### ABOUT SECTION ######### */
+
+.bowed .text-center {
+    font-size: 48px;
+}
+
+.about-logo{
+    /* padding: 100px; */
+    width: 200px;
+    height: 200px;;
+    border-radius: 50%;
+}
+
+.h1-border-about{
+    text-decoration: underline;
+    font-size: 60px;
+    margin-bottom: 45px;
+    color: #b5c6be;
+}
+
+.about-paragraph{
+    width: 90%;
+    text-align: justify;
+    margin: auto;
+    color: #b5c6be;
+    font-size: 20px;
+    
+}
+
+/* ######## NEED ADVICE ######### */
+
+.review{
+    height: 100%;
+}
+
+.advice{
+    font-size: 54px;
+}
+
+.call-today{
+    margin: 0 auto !important;
+    width: 250px;
+}
+
+/* ######### FOOOTER ######### */
+
+#footer {
+    padding: 50px 20px;
+}
+
+.contact-container {
+    margin: 0 auto;
+}
+
+.contact-info {
+    text-align: center;
+}
+
+.social {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 350px){
+
+    /* JUMBOTRON */
+
+    .jumbotron h1 {
+        font-size: 42px;
+    }
+
+    .jumbotron p:first-of-type {
+        font-size: 28px;
+    }
+
+    .mx-auto a {
+        font-size: 16px;
+    }
+    
+    /* ABOUT */
+
+    .bowed h1 {
+        font-size: 42px;
+    }
+
+    .advice{
+        font-size: 46px;
+    }
+
+    /* FOOTER */
+    
+}
+
+}

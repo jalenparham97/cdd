@@ -1,0 +1,45 @@
+.blog-title{
+    /* text-align: center; */
+    font-size: 45px;
+    color: #466D92;
+    margin-bottom: 15px;
+}
+
+.card{
+    width: 70%;
+    margin: 35px auto 25px auto;
+}
+
+.cursive{
+ 
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+.blog-photo{
+
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.cite{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.blog-paragraph{
+    font-size: 18px;
+}
+
+.subheading{
+    color: #466D92;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 993px){
+    .card {
+        width: 95%;
+    }
+}

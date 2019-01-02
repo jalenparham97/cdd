@@ -1,0 +1,68 @@
+.white-text{
+    color: #fcfeff;
+    color: #b5c6be;
+    color: #689082;
+    color: #466D92;
+    color: #dde5e3;
+    color: black;
+
+    color: white;
+}
+
+.portfolio-header {
+    text-align: center;
+    width: 70%;
+    margin: 70px auto 100px auto;
+}
+
+.portfolio-title {
+    color: #689082;
+    font-size: 3rem;
+}
+
+.portfolio-subtitle {
+    line-height: 1.5;
+}
+
+.hr-white{
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 8px auto;
+    height: 0;
+    width: 50%;
+    max-height: 0;
+    font-size: 1px;
+    line-height: 0;
+    clear: both;
+    border: none;
+    /* border-top: 3px solid #689082; */
+    border-bottom: 2px solid #466D92;  
+}
+
+.clients-pics{
+    width: 80%;
+    margin-top: 20px;
+    /* margin-bottom: 10px; */
+}
+
+
+.company-description{
+    
+    /* background-color: #e0e7e56c; */
+    background: rgba(240, 240, 240, 0.24);
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 993px){
+    
+.company-description {
+    width: 95%;
+}
+
+.card-body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+}

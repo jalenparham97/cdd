@@ -1,0 +1,60 @@
+.white-text{
+    color: #fcfeff;
+    color: #b5c6be;
+    color: #689082;
+    color: #466D92;
+    color: #dde5e3;
+    color: black;
+
+    color: white;
+}
+
+
+#about{
+    height: 100%;
+}
+
+.company-bio{
+    /* background-color: white; */
+    /* background-color: white; */
+   color: #689082;
+   margin-top: 70px;
+}
+
+.description-logo{
+    width: 150px;
+    margin: 5px;
+    margin-top: 13px;
+}
+
+.bio-name{
+    color: #689082;
+}
+
+.bio-h3{
+    color: #466D92;
+}
+
+.company-description{
+    text-align: justify;
+    margin: 15px;
+    width: 70%;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.mission-vision-bg{
+    background-color: #689082;
+    height: 35%;
+}
+
+.ceo-statement{
+    background-color: #466D92;
+    height: 65%;
+}
+
+@media only screen and (max-width: 993px){
+    .company-description {
+        width: 95%;
+    }
+}
