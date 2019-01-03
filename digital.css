@@ -42,11 +42,12 @@
 .webdev-container {
     width: 90%;
     margin: 80px auto 0px auto;
+    display: flex;
 }
 
 .card {
     width: 400px;
-    height: 500px;
+    height: 600px;
     border-radius: 0px;
 }
 
@@ -73,12 +74,8 @@
     height: 100%;
 }
 
-.review {
-    margin: 70px auto 0px auto;
-}
-
-.row {
-    display: flex;
+.review .card {
+    margin: 0 auto; 
 }
 
 @media only screen and (max-width: 993px){
@@ -92,20 +89,20 @@
     }
     
     .card {
-        height: 540px;
+        width: 100%;
         margin-top: 40px;
     }
 
     .webdev-container {
         margin: 0px auto;
+        flex-direction: column;
     }
 
     .review {
-        width: 95%;
+        margin: 0px auto;
     }
 
-    .row {
-        display: flex;
-        /* flex-direction: column; */
+    .review .card {
+        margin-top: 40px;
     }
 }
