@@ -75,13 +75,23 @@
 
 @media only screen and (max-width: 993px){
 
+    .banner-webdev-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    .webdev-h1 {
+        font-size: 50px;
+        margin: 0 auto;
+    }
+
     .webdev-container {
         flex-direction: column;
         margin: 0px auto;
     }
     
     .card {
-        margin-top: 40px;
+        margin: 40px auto 0px auto;
         width: 100%;
     }
 
