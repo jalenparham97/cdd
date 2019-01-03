@@ -42,11 +42,12 @@
 .webdev-container {
     width: 90%;
     margin: 80px auto 0px auto;
+    display: flex;
 }
 
 .card {
     width: 400px;
-    height: 500px;
+    height: 600px;
     border-radius: 0px;
 }
 
@@ -74,10 +75,6 @@
 }
 
 @media only screen and (max-width: 993px){
-    .computer-icon {
-        margin-left: 5%;
-    }
-
     .banner-webdev {
         width: 100%;
     }
@@ -90,14 +87,15 @@
     .webdev-h3 {
         margin-top: 20px;
     }
-    
-    
-    .websites-h1{
-        font-size: 24px;
+
+    .webdev-container {
+        flex-direction: column;
+        margin: 0px auto;
+    }
+
+    .card {
+        width: 100%;
+        margin-top: 40px;
     }
     
-    .webdev p {
-        margin: 0 auto;
-        width: 90%;
-    }
 }
