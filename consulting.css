@@ -113,4 +113,8 @@
     .second-container {
         margin: 0px auto;
     }
+
+    .second-container .card .webdev-description {
+        width: 100%;
+    }
 }
